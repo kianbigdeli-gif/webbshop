@@ -1,0 +1,216 @@
+/* Inställningar för hela sidan */
+body {
+    margin: 0px;
+    background-color: gainsboro;
+}
+
+/* Håller ihop sidan och bestämmer bredden */
+#wrapper {
+    width: 1400px;
+    margin: auto;
+}
+
+/* Översta svarta menyn */
+#top {
+    background-color: #252525;
+    height: 24px;
+    width: 100%;
+    padding-top: 10px;
+    color: #ffffff;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+/* Länkarna på vänster sida av topmenyn */
+#toplinks {
+    margin-left: 115px;
+    float: left;
+}
+
+/* Ändrar utseendet på länkarna i topmenyn */
+#top a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Ändrar färg när musen är över länken */
+#top a:hover {
+    color: #f7641d;
+}
+
+/* Mellanrum runt strecken mellan länkarna */
+.divider {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+/* Inloggning och shoppingbag till höger */
+#rightinfo {
+    float: right;
+    margin-left: 220px;
+}
+
+/* Headern under den svarta menyn */
+#header {
+    height: 81px;
+    background-color: #ffffff;
+    width: 100%;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+/* Länkarna i headern */
+#header a {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Ändrar färg när musen är över länkarna */
+#header a:hover {
+    color: #f7641d;
+}
+
+/* Vänstra delen av headern */
+#headerleft {
+    float: left;
+    margin-left: 144px;
+    padding-top: 34px;
+}
+
+/* Mitten av headern där loggan ligger */
+#headermid {
+    float: left;
+    padding-left: 120px;
+}
+
+/* Högra delen av headern */
+#headerright {
+    float: left;
+    margin-left: 120px;
+    padding-top: 34px;
+}
+
+/* Stora bilden på startsidan */
+#frontImage {
+    background-image: url("front.jpg");
+    height: 582px;
+}
+
+/* SHOP NOW knappen */
+#shopNowButton {
+    background-color: #f7641d;
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    width: 196px;
+    height: 52px;
+    border: 0px;
+    position: relative;
+    top: 364px;
+    left: 214px;
+    cursor: pointer;
+}
+
+/* Ändrar färgen när musen är över knappen */
+#shopNowButton:hover {
+    background-color: #f7a71d;
+}
+
+/* Området där kategorierna finns */
+#categories {
+    height: 410px;
+    background-color: #ffffff;
+}
+
+/* Centrerar tabellen med kategorier */
+#categories table {
+    margin: auto;
+    padding-right: 30px;
+}
+
+/* Utseendet och mellanrummet för kategorierna */
+#categories td {
+    padding: 30px 0px 0px 30px;
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #000000;
+    text-align: center;
+}
+
+/* Tar bort linjen under länkarna */
+#categories td a {
+    text-decoration: none;
+}
+
+/* Ändrar färg när musen är över en kategori */
+#categories td a:hover {
+    color: #f7641d;
+}
+
+/* Newsletter delen */
+#newsletter {
+    background-image: url("newsletter.jpg");
+    background-repeat: no-repeat;
+    background-color: #c69c6c;
+    height: 218px;
+    padding-top: 100px;
+}
+
+/* Stora NEWSLETTER texten */
+#newsletter h1 {
+    display: inline;
+    font-size: 58px;
+    margin-right: 46px;
+}
+
+/* SUBSCRIBE TO OUR texten */
+#newsletter h2 {
+    display: inline;
+    font-weight: lighter;
+    font-size: 38px;
+    letter-spacing: 4px;
+    margin-right: 40px;
+}
+
+/* Rutan där man skriver sin email */
+#EmailInput {
+    height: 34px;
+    width: 380px;
+    font-size: 16px;
+    color: black;
+    padding-left: 20px;
+    position: relative;
+    top: -6px;
+}
+
+/* Subscribe knappen */
+#subscribeButton {
+    background-color: #252525;
+    color: #ffffff;
+    font-family: Verdana, sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+    height: 40px;
+    width: 404px;
+    position: relative;
+    top: -12px;
+}
+
+/* Ändrar subscribe knappen när musen är över */
+#subscribeButton:hover {
+    background-color: #353535;
+    color: #f7941d;
+    cursor: pointer;
+}
+
+/* Texten längst ner i newsletter delen */
+#newsletter p {
+    letter-spacing: 0px;
+    font-size: 13px;
+    text-align: center;
+    padding-right: 260px;
+}
